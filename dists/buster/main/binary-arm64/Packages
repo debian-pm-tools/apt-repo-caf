@@ -1,0 +1,28 @@
+Package: android-headers
+Source: android-headers (1:7.1-4)
+Version: 1:7.1-4+bcaf1
+Architecture: all
+Maintainer: Rohan Garg <rohan@kde.org>
+Installed-Size: 2880
+Conflicts: android-libandroidfw-dev, android-libbacktrace-dev, android-libbase-dev, android-libcutils-dev, android-libdex-dev, android-libetc1-dev, android-libext4-utils-dev, android-libf2fs-utils-dev, android-liblog-dev, android-libnativehelper-dev, android-libselinux-dev, android-libsparse-dev, android-libunwind-dev, android-libutils-dev, android-libziparchive-dev, android-platform-frameworks-native-headers, android-platform-libcore-headers, android-platform-system-core-headers
+Breaks: android-libandroidfw-dev, android-libbacktrace-dev, android-libbase-dev, android-libcutils-dev, android-libdex-dev, android-libetc1-dev, android-libext4-utils-dev, android-libf2fs-utils-dev, android-liblog-dev, android-libnativehelper-dev, android-libselinux-dev, android-libsparse-dev, android-libunwind-dev, android-libutils-dev, android-libziparchive-dev, android-platform-frameworks-native-headers, android-platform-libcore-headers, android-platform-system-core-headers
+Multi-Arch: foreign
+Homepage: https://github.com/Halium/android-headers
+Priority: optional
+Section: libs
+Filename: pool/main/a/android-headers/android-headers_7.1-4+bcaf1_all.deb
+Size: 407656
+SHA256: cc5474bc0134101b912b8ca970fa36aedbf8f796cf82a0c474c65cffa41a5760
+SHA1: f041b47d1c452585f8f174e86a3a4b68f86291c8
+MD5sum: 4bcb7810e6fb21b04ac5d1377e0dfb8e
+Description: Android Platform Headers from AOSP releases
+ Android NDK provided by Google contains subset of AOSP platform
+ headers which are deemed "external interface" by Google. However,
+ writing advanced software for Android necessitates access to complete
+ platform. Many aspects of it change, sometimes drastically, between
+ releases, so compiling user source code against platform headers for
+ different releases is required (e.g. for libhybris).
+ .
+ This package provides the platform development headers for core components
+ of LineageOS, for the 7.1 release.
+
